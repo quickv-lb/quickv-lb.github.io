@@ -42,9 +42,12 @@
 #gif2{
 	padding-right: 20px;
 }
-#header{
-	height: 150vh;
+#header,#section1{
+	height: 300vh;
 
+}
+#section2{
+	height: 200vh;
 }
 
 #section4{
@@ -63,7 +66,7 @@
 }
 
 #section6{
-	height: 150vh;
+	height: 170vh;
 }
 
 #section7{
@@ -131,16 +134,16 @@ a[aria-expanded=true] .fas.fa-arrow-circle-down {
  
 @font-face {
 	 font-family: 'Slenco';
-	 src: url("../fonts/SlencoBlack-d9lyR.otf");
+	 src: url("SlencoBlack-d9lyR.otf");
 	}
  
 @font-face {
 	font-family: 'Avenir Book';
-	src: url("../fonts/AvenirLTStd-Book.otf");
+	src: url("AvenirLTStd-Book.otf");
    }
 @font-face {
 	font-family: 'Avenir Black';
-	src: url("../fonts/AvenirLTStd-Black.otf");
+	src: url("AvenirLTStd-Black.otf");
 }
 
 body {
