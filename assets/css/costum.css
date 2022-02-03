@@ -2,22 +2,153 @@
 	#col1{
 		order: 2;
 		height: 30vh;
-		visibility: hidden;
+		position: absolute;
+
 	}
 	#col2{
 		order: 1;
 		height: 30vh;
 	}
-	#footertxt{
-	padding-right: 10px;
-	padding-left: 10px;
+
+	#colsec6-1{
+		order: 2;
+	}
+
+	#colsec6-2{
+		order: 1;
+	}
+
+	#whats{
+		font-size: 50px;
+	}
+	#footerbody{
+		padding-left: 50px;
+	}
+
+
+
+#section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#header{
+	padding: 20px;
+	width: 142%;
+
 }
+#section2 .row{
+	margin-top: 30px;
+}
+
+#section1 .h2{
+	margin-top: 0px;
+}
+#gif2{
+	padding-right: 20px;
+}
+#header{
+	height: 150vh;
+
+}
+
+#section4{
+	visibility: hidden;
+}
+
+#section5{
+	height: 150vh;
+}
+
+#section04{
+	height: 50vh;
+	position: relative;
+	width: 142%;
+	visibility: visible;
+}
+
+#section6{
+	height: 150vh;
+}
+
+#section7{
+	height: 150vh;
+}
+
+#section2{
+	position: relative;
+}
+
 }
 
 @media(min-width: 600px){
+
+#whats{
+	font-size: 40px;
+	margin-top: 5px;
+}
+
+#section04{
+	visibility: hidden;
+	height: 0vh;
+}
+#section4{
+	height: 50vh;
+	visibility: visible;
+}
+
+#section5{
+	height: 100vh;
+}
+
+#section6{
+	height: 100vh;
+}
+
+#section7{
+	height: 100vh;
+}
 
 #footertxt{
 	padding-right: 25vh;
 	padding-left: 25vh;
 }
+
+}
+#col1 {
+	filter: drop-shadow(0 0 0.75rem rgb(238, 237, 232));
+  }
+
+.card {
+	margin-bottom:20px;
+	border-radius: 15px;
+	background-color: #f8f8ff;
+	overflow:hidden;
+}
+
+a[aria-expanded=true] .fas.fa-arrow-circle-down {
+	display: none;
+ }
+ a[aria-expanded=false] .fas.fa-times-circle {
+	display: none;
+ }
+
+ 
+@font-face {
+	 font-family: 'Slenco';
+	 src: url("SlencoBlack-d9lyR.otf");
+	}
+ 
+@font-face {
+	font-family: 'Avenir Book';
+	src: url("AvenirLTStd-Book.otf");
+   }
+@font-face {
+	font-family: 'Avenir Black';
+	src: url("AvenirLTStd-Black.otf");
+}
+
+body {
+	font-family: 'Slenco';
+}
+.card-text {
+	font-family: 'Avenir Book';
+}
+.mb-0 {
+	font-family: 'Avenir Black';
 }
