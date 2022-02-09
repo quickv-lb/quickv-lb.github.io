@@ -21,96 +21,96 @@
 	#whats{
 		font-size: 50px;
 	}
+
 	#footerbody{
 		padding-left: 50px;
 	}
 
+	#section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#header{
+		padding: 20px;
+		width: 142%;
 
+	}
+	#section2 .row{
+		margin-top: 30px;
+	}
 
-#section1,#section2,#section3,#section4,#section5,#section6,#section7,#section8,#header{
-	padding: 20px;
-	width: 142%;
+	#section1 .h2{
+		margin-top: 0px;
+	}
+	#gif2{
+		padding-right: 20px;
+	}
+	#header,#section1{
+		height: 200vh;
 
-}
-#section2 .row{
-	margin-top: 30px;
-}
+	}
+	#section2{
+		height: 200vh;
+	}
+	
 
-#section1 .h2{
-	margin-top: 0px;
-}
-#gif2{
-	padding-right: 20px;
-}
-#header,#section1{
-	height: 200vh;
+	#section4{
+		visibility: hidden;
+	}
 
-}
-#section2{
-	height: 200vh;
-}
+	#section5{
+		height: 150vh;
+	}
 
-#section4{
-	visibility: hidden;
-}
+	#section04{
+		height: 50vh;
+		position: relative;
+		width: 142%;
+		visibility: visible;
+	}
 
-#section5{
-	height: 150vh;
-}
+	#section6{
+		height: 170vh;
+	}
 
-#section04{
-	height: 50vh;
-	position: relative;
-	width: 142%;
-	visibility: visible;
-}
+	#section7{
+		height: 150vh;
+	}
 
-#section6{
-	height: 170vh;
-}
-
-#section7{
-	height: 150vh;
-}
-
-#section2{
-	position: relative;
-}
+	#section2{
+		position: relative;
+	}
 
 }
 
 @media(min-width: 600px){
 
-#whats{
-	font-size: 40px;
-	margin-top: 5px;
-}
+	#whats{
+		font-size: 39px;
+		margin-top: 5px;
+	}
 
-#section04{
-	visibility: hidden;
-	height: 0vh;
-}
-#section4{
-	height: 50vh;
-	visibility: visible;
-}
+	#section04{
+		visibility: hidden;
+		height: 0vh;
+	}
+	#section4{
+		height: 50vh;
+		visibility: visible;
+	}
 
-#section5{
-	height: 100vh;
-}
+	#section5{
+		height: 100vh;
+	}
 
-#section6{
-	height: 100vh;
-}
+	#section6{
+		height: 100vh;
+	}
 
-#section7{
-	height: 100vh;
-}
+	#section7{
+		height: 100vh;
+	}
 
-#footertxt{
-	padding-right: 25vh;
-	padding-left: 25vh;
-}
+	#footertxt{
+		padding-right: 25vh;
+		padding-left: 25vh;
+	}
 
 }
 #col1 {
@@ -134,16 +134,16 @@ a[aria-expanded=true] .fas.fa-arrow-circle-down {
  
 @font-face {
 	 font-family: 'Slenco';
-	 src: url("../fonts/SlencoBlack-d9lyR.otf");
+	 src: url("SlencoBlack-d9lyR.otf");
 	}
  
 @font-face {
 	font-family: 'Avenir Book';
-	src: url("../fonts/AvenirLTStd-Book.otf");
+	src: url("AvenirLTStd-Book.otf");
    }
 @font-face {
 	font-family: 'Avenir Black';
-	src: url("../fonts/AvenirLTStd-Black.otf");
+	src: url("AvenirLTStd-Black.otf");
 }
 
 body {
@@ -154,4 +154,11 @@ body {
 }
 .mb-0 {
 	font-family: 'Avenir Black';
+}
+.fas.fa-times-circle{
+	color: #7DBBE9;
+}
+.fas.fa-arrow-circle-down{
+	color: #7DBBE9;
+
 }
