@@ -134,16 +134,16 @@ a[aria-expanded=true] .fas.fa-arrow-circle-down {
  
 @font-face {
 	 font-family: 'Slenco';
-	 src: url("SlencoBlack-d9lyR.otf");
+	 src: url("../fonts/SlencoBlack-d9lyR.otf");
 	}
  
 @font-face {
 	font-family: 'Avenir Book';
-	src: url("AvenirLTStd-Book.otf");
+	src: url("../fonts/AvenirLTStd-Book.otf");
    }
 @font-face {
 	font-family: 'Avenir Black';
-	src: url("AvenirLTStd-Black.otf");
+	src: url("../fonts/AvenirLTStd-Black.otf");
 }
 
 body {
