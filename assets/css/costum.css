@@ -92,6 +92,9 @@
 	#phone4{
 		width:400px;
 	}
+	#silver{
+		top:10vh;
+	}
 
 
 
@@ -158,6 +161,9 @@
 	}
 	#phone4{
 		width:600px;
+	}
+	#silver{
+		top:15vh;
 	}
 }
 
@@ -272,5 +278,8 @@ li {
 	}
 	#phone4{
 		width:350px;
+	}
+	#silver{
+		top:10vh;
 	}
 }
