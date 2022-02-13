@@ -89,6 +89,9 @@
 	#cardtap{
 		max-width: 400px;
 	}
+	#screens{
+		max-width: 350px;
+	}
 
 
 
@@ -145,6 +148,9 @@
 	}
 	#section1{
 		height:100vh;
+	}
+	#screens{
+		max-width: 500px;
 	}
 }
 
@@ -250,5 +256,8 @@ li {
 	}
 	#header {
 		height: 180vh;
+	}
+	#screens{
+		max-width: 350px;
 	}
 }
