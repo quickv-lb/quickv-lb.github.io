@@ -27,7 +27,7 @@
 
 	#section1,#section3,#section4,#section5,#section6,#section7,#section8,#header{
 		padding: 20px;
-		width: 142%;
+		width: 100%;
 
 	}
 	#section2 .row{
@@ -46,7 +46,7 @@
 	}
 	#section2{
 		height: 80vh;
-		width: 142%;
+		width: 100%;
 	}
 	
 
@@ -61,7 +61,7 @@
 	#section04{
 		height: 50vh;
 		position: relative;
-		width: 142%;
+		width: 100%;
 		visibility: visible;
 	}
 
