@@ -2,12 +2,11 @@
 	#col1{
 		order: 2;
 		height: 30vh;
-		position: absolute;
-
 	}
 	#col2{
 		order: 1;
 		height: 30vh;
+		padding-top: 5vh;
 	}
 
 	#colsec6-1{
@@ -46,7 +45,7 @@
 
 	}
 	#section2{
-		height: 300vh;
+		height: 80vh;
 	}
 	
 
@@ -81,6 +80,10 @@
 
 @media(min-width: 600px){
 
+	#section2{
+		height:60vh;
+	}
+
 	#whats{
 		font-size: 39px;
 		margin-top: 5px;
@@ -111,11 +114,11 @@
 		padding-right: 25vh;
 		padding-left: 25vh;
 	}
+	#col2{
+	 	padding-top:20vh;
+	}
 
 }
-#col1 {
-	filter: drop-shadow(0 0 0.75rem rgb(238, 237, 232));
-  }
 
 .card {
 	margin-bottom:20px;
@@ -172,6 +175,7 @@ body {
   border-radius: 50%;
   border: 1px solid black;
   background-image: none;
+  display: hidden;
   
 }
 
