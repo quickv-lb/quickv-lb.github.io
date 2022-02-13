@@ -225,11 +225,17 @@ p {
 li {
 	font-size:45px;
 }
+#cardtap{
+		max-width="600px;"
+	}
 @supports(-webkit-touch-callout: none){
 	h2 {
 		font-size:44px;
 	}
 	p {
 		font-size:36;
+	}
+	#cardtap{
+		max-width="400px;"
 	}
 }
