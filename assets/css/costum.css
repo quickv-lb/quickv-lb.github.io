@@ -149,6 +149,7 @@
 	}
 	#screens{
 		max-width: 600px;
+		width:600px;
 	}
 }
 
