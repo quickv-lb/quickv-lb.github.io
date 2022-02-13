@@ -121,7 +121,7 @@
 	}
 
 	#section5{
-		height: 100vh;
+		height: 120vh;
 	}
 
 	#section6{
@@ -284,5 +284,8 @@ li {
 	}
 	#section3{
 		height:100vh;
+	}
+	#section6{
+		height:170vh;
 	}
 }
