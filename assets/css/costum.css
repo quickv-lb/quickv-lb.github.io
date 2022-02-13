@@ -41,7 +41,7 @@
 		padding-right: 20px;
 	}
 	#header,#section1{
-		height: 200vh;
+		height: 150vh;
 
 	}
 	#section2{
@@ -84,7 +84,7 @@
 
 	}
 	#cardtap{
-		max-width: 300px;
+		max-width: 400px;
 	}
 
 
@@ -138,7 +138,7 @@
 		padding-top: 5vh;
 	}
 	#cardtap{
-		max-width="600px;"
+		max-width:600px;
 	}
 
 }
