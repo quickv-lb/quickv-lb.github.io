@@ -45,7 +45,9 @@
 		height: 80vh;
 		width: 100%;
 	}
-	
+	#section3{
+		height:170px;
+	}
 
 	#section4{
 		visibility: hidden;
@@ -63,7 +65,7 @@
 	}
 
 	#section6{
-		height: 170vh;
+		height: 120vh;
 	}
 
 	#section7{
@@ -125,7 +127,7 @@
 	}
 
 	#section6{
-		height: 90vh;
+		height: 120vh;
 	}
 
 	#section7{
@@ -283,9 +285,9 @@ li {
 		top:18vh;
 	}
 	#section3{
-		height:100vh;
+		height:140vh;
 	}
 	#section6{
-		height:170vh;
+		height:130vh;
 	}
 }
