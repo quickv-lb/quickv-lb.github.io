@@ -216,7 +216,8 @@ html, body {
 	width:100%;
 }
 h2 {
-	font-size:80px;
+	font-size:5rem !important;
+
 }
 p {
 	font-size:74;
