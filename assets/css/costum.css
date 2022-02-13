@@ -143,7 +143,9 @@
 	#cardtap{
 		max-width:600px;
 	}
-
+	#section1{
+		height:100vh;
+	}
 }
 
 .card {
