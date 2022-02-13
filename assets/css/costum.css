@@ -90,6 +90,12 @@
 	#screens{
 		max-width: 350px;
 	}
+	#black{
+		width:400;
+	}
+	#phone4{
+		width:400;
+	}
 
 
 
@@ -150,6 +156,12 @@
 	#screens{
 		max-width: 600px;
 		width:600px;
+	}
+	#black{
+		width:600;
+	}
+	#phone4{
+		width:600;
 	}
 }
 
@@ -258,5 +270,11 @@ li {
 	}
 	#screens{
 		max-width: 350px;
+	}
+	#black{
+		width:350;
+	}
+	#phone4{
+		width:350;
 	}
 }
