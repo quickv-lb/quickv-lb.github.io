@@ -30,6 +30,9 @@
 		width: 100%;
 
 	}
+	#section1{
+		height:160vh;
+	}
 	#section2 .row{
 		margin-top: 30px;
 	}
@@ -40,7 +43,7 @@
 	#gif2{
 		padding-right: 20px;
 	}
-	#header,#section1{
+	#header{
 		height: 150vh;
 
 	}
@@ -242,5 +245,8 @@ li {
 	}
 	#cardtap{
 		max-width="400px;"
+	}
+	#header {
+		height: 200vh;
 	}
 }
