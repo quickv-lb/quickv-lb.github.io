@@ -234,7 +234,7 @@ li {
 	}
 @supports(-webkit-touch-callout: none){
 	h2 {
-		font-size:44px;
+		font-size:4rem;
 	}
 	p {
 		font-size:36;
