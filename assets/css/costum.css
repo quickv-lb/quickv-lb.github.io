@@ -31,7 +31,7 @@
 
 	}
 	#section1{
-		height:160vh;
+		height:140vh;
 	}
 	#section2 .row{
 		margin-top: 30px;
@@ -246,7 +246,7 @@ li {
 		font-size:36;
 	}
 	#cardtap{
-		max-width="400px;"
+		max-width:400px;
 	}
 	#header {
 		height: 180vh;
