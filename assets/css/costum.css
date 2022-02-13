@@ -47,7 +47,6 @@
 	#section2{
 		height: 80vh;
 		width: 142%;
-
 	}
 	
 
@@ -77,6 +76,14 @@
 	#section2{
 		position: relative;
 	}
+	#footer{
+		height: 75vh;
+	}
+	#footer-img{
+		padding:5vh;
+
+	}
+
 
 }
 
@@ -118,6 +125,13 @@
 	}
 	#col2{
 	 	padding-top:20vh;
+	}
+	#footer{
+		height: 55vh;
+	}
+	#footer-img{
+		margin-left:-80px; 
+		padding-top: 5vh;
 	}
 
 }
