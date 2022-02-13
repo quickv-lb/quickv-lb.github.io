@@ -137,6 +137,9 @@
 		margin-left:-80px; 
 		padding-top: 5vh;
 	}
+	#cardtap{
+		max-width="600px;"
+	}
 
 }
 
@@ -229,9 +232,7 @@ p {
 li {
 	font-size:45px;
 }
-#cardtap{
-		max-width="600px;"
-	}
+
 @supports(-webkit-touch-callout: none){
 	h2 {
 		font-size:4rem;
