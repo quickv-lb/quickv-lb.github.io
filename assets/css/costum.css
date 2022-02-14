@@ -7,6 +7,7 @@
 		order: 1;
 		height: 30vh;
 		padding-top: 5vh;
+		padding-left:5vh;
 	}
 
 	#colsec6-1{
@@ -21,7 +22,7 @@
 		font-size: 50px;
 	}
 
-	#section1,#section3,#section4,#section5,#section6,#section7,#section8,#header{
+	#section1,#section3,#section4,#section04,#section5,#section6,#section7,#section8,#header{
 		padding: 20px;
 		width: 100%;
 
