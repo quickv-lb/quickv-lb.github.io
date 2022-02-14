@@ -288,6 +288,9 @@ li {
 		height:140vh;
 	}
 	#section6{
+		height:140vh;
+	}
+	#section1,  #section5{
 		height:130vh;
 	}
 }
