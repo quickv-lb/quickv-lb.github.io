@@ -18,21 +18,19 @@
 
     
 
-    <section class="" id="header" 
-    style="
-    padding-bottom: 0vh;  
-    background-color: #034261; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right ,#01202f, #02354d, #034261);
-    overflow: hidden;">
+    <section class="" id="header"     style="
+                                        background-color: #034261; /* For browsers that do not support gradients */
+                                        background-image: linear-gradient(to right ,#01202f, #02354d, #034261);
+                                        overflow: hidden;">
     <div class="container">
-        <div class="row" style="text-align:center;"><div class="col-12"><img src="assets/img/logo.png" style="max-width: 30vh; padding-top:50px;"></div></div>
+        <div class="row" style="text-align:center;"><div class="col-12"><embed src="assets/svgs/logo.svg" style="max-width: 30vh; padding-top:5vh;"></div></div>
     </div>    
     <div class="container">
             <div class="row" style="padding-top:10vh;">
                 
                 <div class="col-md-6" style="margin-top:10vh;">
                     <h2 class="mb-1" style="text-align: left;color: var(--white);margin-top: 10vh;line-height: 56pt;"> Next generation <br>connection</h2>
-                    <h3 class="mb-5" style="text-align: left;font-size: 25px; font-family: 'Avenir Book'; color:#ffffff; line-height: 26pt;">Integrated NFC technology, which enables you to transmit your contact details, social media, website and more with one tap on the smartphone.</h3>
+                    <p class="mb-5" style="text-align: left;font-size: 25px; font-family: 'Avenir Book'; color:#ffffff; line-height: 26pt;">Integrated NFC technology, which enables you to transmit your contact details, social media, website and more with one tap on the smartphone.</p>
                 </div>
                 <div class="col-md-6" style="display:flex;">
                     <img src="assets/img/gif/card-tap.gif" id="cardtap">
@@ -40,8 +38,8 @@
             </div>
     </div>
         
-        <a class="d-inline scroll-to-top" href="https://api.whatsapp.com/send?phone=+96171121943" target="_blank" style="background: transparent; margin-right: 4%; width:55px; height:55px;">
-            <img src="assets/img/whatsapplogo.png" width="45px" alt="">
+        <a class="d-inline scroll-to-top" href="https://api.whatsapp.com/send?phone=+96171121943" target="_blank" style="background: transparent;" id="whatsapp-svg-container">
+            <embed src="assets/svgs/whatsapp.svg" width="60px" alt="" id="whatsapp-svg">
         </a>
     </section>
     <section class="content-section" id="section1" style="overflow: hidden;background-color: #f7f7f7;">
@@ -51,17 +49,12 @@
                     <h2 class="mb-1" style="text-align: left;color: #000000; line-height: 56pt; padding-left:0px;">
                         What information can it hold?
                     </h2>
-                    <p>
-
-                        <ul style="line-height:40pt;">
-                            <li>Geo Location</li>
-                            <li>Website</li>
-                            <li>Social Media</li>
-                            <li>Contact details</li>
-                            <li>Any URL link</li>
-                            
-                        </ul>                        
-                        
+                    <p style="line-height:40pt; font-size:45px;">
+                            <i class="fa fa-check" style="margin-right: 33px;color: rgb(137,185,228);"></i>Geo Location<br>
+                            <i class="fa fa-check" style="margin-right: 33px;color: rgb(137,185,228);"></i>Website<br>
+                            <i class="fa fa-check" style="margin-right: 33px;color: rgb(137,185,228);"></i>Social Media<br>
+                            <i class="fa fa-check" style="margin-right: 33px;color: rgb(137,185,228);"></i>Contact details<br>
+                            <i class="fa fa-check" style="margin-right: 33px;color: rgb(137,185,228);"></i>Any URL link<br>            
                     </p>
                         
                 </div>
@@ -78,7 +71,7 @@
     <div class="container" style="padding:0px; margin:0px;">
             <div class="row">
                 <div class="col-md-7" id="col1">
-                <img id="silver" src="assets/img/silver-removebg-preview.png" width="90%" alt="" style="position: absolute; left:0px;">
+                <embed id="silver" src="assets/svgs/sliver-phone.svg" width="80%" alt="" style="position: absolute; left:0px;">
                 </div>
                 <div class="col-md-5 align-self-center" id="col2" style="vertical-align: middle;">
                     <p style="text-align: left;font-size: 20px;color: #ffffff ; font-family: 'Avenir Book';">
@@ -100,12 +93,12 @@
             <h2>Compatible with</h2>
         </div>
         <div class="row">
-            <div class="col-4" style="padding-right:40px;">
+            <div class="col-4" id="d1-col">
                 <h3>Apple</h3>
-                <p>All phones since 2017 including:<br>IPhone 8 Series<br>IPhone X Series<br>IPhone 11 Series<br>IPhone 12 Series<br>IPhone SE (2020)<br></p><h4>Samsung</h4><p>All phones since 2014 including:<br>S Serie<br>A Series<br></p><h3>HTC</h3><p>All phones since 2015.</p>
+                <p>All phones since 2017 including:<br>IPhone 8 Series<br>IPhone X Series<br>IPhone 11 Series<br>IPhone 12 Series<br>IPhone SE (2020)<br></p><h3>Samsung</h3><p>All phones since 2014 including:<br>S Serie<br>A Series<br></p><h3>HTC</h3><p>All phones since 2015.</p>
                 </p>
             </div>
-            <div class="col-4" style="padding-right:10px;">
+            <div class="col-4">
                 <h3>Google</h3><p>All phones since 2015 including:<br>Pixel Series</p><h3>Huawei</h3><p>All phones since 2016 including:<br>P Series</p><h3>OnePlus</h3><p>All phones since 2015 including:<br>3 Series, 5 Series<br>6 Series, 7 Series<<br>8 Series<br></p>
             </div>
             <div class="col-4">
@@ -213,7 +206,7 @@
                         <div class="carousel-inner" style="height: 20vh;">
                             <div class="carousel-item active">
                                 <div class="row" >
-                                    <div class="col-6 d-inline" style="padding-right: 5px;">
+                                    <div class="col-6 d-inline" style="padding-right: 5%;">
                                         <img  src="assets/img/Logos/Logos%20Clients-01.png" alt="Slide Image" style="height:20vh; padding-right: 10px; max-width: 160px;">
                                     </div>
                                     <div class="col-6 d-inline" style="padding-right: 5px;">
@@ -305,7 +298,7 @@
             </div>
         </div>
     </section>
-    <section class="content-section" id="section5" style="background-image: radial-gradient(#a0ffff 5%,#559bcb 80%,#559bcb);/*background: url(&quot;assets/img/bg2.png&quot;) center / cover no-repeat; overflow: hidden;*/">
+    <section class="content-section" id="section5" style="background-image: radial-gradient(#a0ffff 5%,#559bcb 80%,#559bcb);">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -313,14 +306,16 @@
                     <p style="color: black;font-size: 22px;margin-left: 10px; font-family: 'Avenir Book';">Along side with NFC card, a QR code<br>on the back is available. The two<br>technologies work together to form :<br>fully functional solution for both iOS<br>and Android.<br></p>
                     <p style="margin-left: 0px;text-align: center;color: black;margin-top: 60px;font-size: 25px;"><img src="assets/img/card price.png" width="280px"></p>
                 </div>
-                <div class="col-md-6"><img src="assets/img/black.png" id="black"></div>
+                <div class="col-md-6">
+                    <embed src="assets/svgs/black.svg" id="black" width="500px">
+                </div>
             </div>
         </div>
     </section>
     <section class="text-white content-section" id="section6" style="background: #000000; overflow: hidden;">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" id="colsec6-1"><img src="assets/img/phone 4.png" id="phone4"></div>
+                <div class="col-md-6" id="colsec6-1"><embed src="assets/svgs/twophones.svg" id="phone4"></div>
                 <div class="col-md-1"></div>
                 
                 <div class="col-md-5 align-self-center" id="colsec6-2">
@@ -334,7 +329,7 @@
             </div>
         </div>
     </section>
-    <section  class="map" id="section8" style="height: 80vh; background-color: #f7f7f7; overflow-y: scroll;">
+    <section  class="map" id="section8" style="background-color: #f7f7f7; overflow-y: scroll;">
         <div class="container text-center" style="padding-top:5vh;">
             <h2 class="mx-auto mb-5" ><span style="font-size: 75px;">FAQs</span></h2>
         </div>
@@ -478,9 +473,9 @@
                         <div class="col-md-4">
                         <h4>Contact us</h4>
                         <ul class="list-inline mb-5"> 
-                            <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" target="_blank" href="assets/img/7.svg" style="background: rgb(0,0,0);"><i class="fab fa-facebook-f"></i></a></li>
-                            <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" target="_blank" href="assets/img/6.svg" style="background: rgb(0,0,0);"><i class="fab fa-instagram"></i></a></li>
-                            <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" target="_blank" href="assets/img/5.svg" style="background: rgb(0,0,0);"><span class="material-icons" style="font-size:27;">email</span></a></li>
+                            <li class="list-inline-item"><a class="text-white social-link rounded-circle" target="_blank" href="#"><embed src="assets/svgs/facebook.svg"></a></li>
+                            <li class="list-inline-item"><a class="text-white social-link rounded-circle" target="_blank" href="#"><embed src="assets/svgs/mail.svg"></a></li>
+                            <li class="list-inline-item"><a class="text-white social-link rounded-circle" target="_blank" href="#"><embed src="assets/svgs/insta.svg"></a></li>
                         </ul>
                     </div>
                 </div>
