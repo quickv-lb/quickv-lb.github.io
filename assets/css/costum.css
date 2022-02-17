@@ -96,13 +96,15 @@
 		width:400px;
 	}
 	#silver{
-		top:19vh;
+		top:25vh;
 	}
 	#section8{
 		height:100vh;
 	}
 	#whatsapp-svg-container{
 		padding-right:16%;
+		z-index:99999;
+		padding-bottom:3%;
 	}
 
 
@@ -174,10 +176,11 @@
 		width:550px;
 	}
 	#silver{
-		top:25vh;
+		top:32vh;
 	}
 	#whatsapp-svg-container{
-		padding-right:8%;
+		padding-right:12%;
+		padding-bottom:5%;
 	}
 	#header{
 		height:110vh;
