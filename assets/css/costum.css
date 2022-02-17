@@ -270,7 +270,13 @@ p {
 li {
 	font-size:45px;
 }
+embed{
+     pointer-events: none;
+}
 
+a{
+    display:inline-block;
+}
 
 @supports(-webkit-touch-callout: none){
 	h2 {
