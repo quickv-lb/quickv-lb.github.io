@@ -115,12 +115,6 @@
 	#section2{
 		height:60vh;
 	}
-
-	#whats{
-		font-size: 39px;
-		margin-top: 5px;
-	}
-
 	#section04{
 		visibility: hidden;
 		height: 0vh;
@@ -179,7 +173,7 @@
 		top:28vh;
 	}
 	#whatsapp-svg-container{
-		padding-right:12%;
+		padding-right:6%;
 		padding-bottom:5%;
 	}
 	#header{
