@@ -47,10 +47,10 @@
 		width: 100%;
 	}
 	#section3{
-		height:90vh;
+		height:0vh;
 	}
 
-	#section4{
+	#section4, #section3{
 		visibility: hidden;
 	}
 
@@ -63,6 +63,12 @@
 		position: relative;
 		width: 100%;
 		visibility: visible;
+	}
+	#section03{
+		height:140vh;
+		visibility: visible;
+		background-color: #000;
+
 	}
 
 	#section6{
@@ -115,13 +121,18 @@
 	#section2{
 		height:60vh;
 	}
-	#section04{
+	#section04, #section03{
 		visibility: hidden;
 		height: 0vh;
 	}
 	#section4{
 		height: 50vh;
 		visibility: visible;
+	}
+	#section3{
+		height:100vh;
+		visibility: visible;
+
 	}
 
 	#section5{
