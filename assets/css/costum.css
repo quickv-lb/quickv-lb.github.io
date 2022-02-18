@@ -36,7 +36,7 @@
 
 	}
 	#section1{
-		height:120vh;
+		height:110vh;
 	}
 	#section2 .row{
 		margin-top: 30px;
@@ -343,15 +343,15 @@ a{
 		height:150vh;
 	}
 	#section1{
-		height:150vh;
+		height:135vh;
 	}
 	#sec1-p{
 		font-size:30px;
 	}
 	#section2{
-		height:85vh;
+		height:65vh;
 	}
-	#section4{
+	#section4, #section3{
 		visibility: hidden;
 		height: 0vh;
 	}
