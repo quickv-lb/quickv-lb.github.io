@@ -18,6 +18,14 @@
 		order: 1;
 	}
 
+	#whats-col-1{
+		order:2;
+		height:0vh;
+	}
+	#whats-col-2{
+		order:1;
+		height:30vh;
+	}
 	#whats{
 		font-size: 50px;
 	}
@@ -107,13 +115,18 @@
 	#section8{
 		height:100vh;
 	}
-	#whatsapp-svg-container{
-		padding-right:16%;
+	#whatsapp-svg{
+		/* padding-right:16%; */
+		margin-left:100%;
+
 		z-index:99999;
-		padding-bottom:3%;
+		/* padding-bottom:3%; */
 	}
 	#section1{
 		padding-top:10vh;
+	}
+	#sec1-p{
+		font-size:40px;
 	}
 
 
@@ -186,12 +199,15 @@
 	#silver{
 		top:28vh;
 	}
-	#whatsapp-svg-container{
-		padding-right:8%;
-		padding-bottom:5%;
+	#whatsapp-svg{
+		margin-left:100%;
+		/* padding-bottom:5%; */
 	}
 	#header{
 		height:110vh;
+	}
+	#sec1-p{
+		font-size:45px;
 	}
 }
 
@@ -323,7 +339,20 @@ a{
 	#section6{
 		height:140vh;
 	}
-	#section1,  #section5{
-		height:130vh;
+	#section5{
+		height:150vh;
+	}
+	#section1{
+		height:150vh;
+	}
+	#sec1-p{
+		font-size:30px;
+	}
+	#section2{
+		height:85vh;
+	}
+	#section4{
+		visibility: hidden;
+		height: 0vh;
 	}
 }
