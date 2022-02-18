@@ -121,6 +121,9 @@
 	#sec1-p{
 		font-size:40px;
 	}
+	#sec2-p{
+		font-size:20px;
+	}
 
 
 }
@@ -197,6 +200,9 @@
 	}
 	#sec1-p{
 		font-size:35px;
+	}
+	#sec2-p{
+		font-size:20px;
 	}
 }
 
@@ -336,6 +342,9 @@ a{
 	}
 	#sec1-p{
 		font-size:30px;
+	}
+	#sec2-p{
+		font-size:17px;
 	}
 	#section2{
 		height:70vh;
