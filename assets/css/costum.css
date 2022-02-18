@@ -319,7 +319,7 @@ a{
 		max-width:350px;
 	}
 	#header {
-		height: 180vh;
+		height: 165vh;
 	}
 	#screens{
 		max-width: 350px;
@@ -331,7 +331,7 @@ a{
 		width:350px;
 	}
 	#silver{
-		top:20vh;
+		top:16vh;
 	}
 	#section3{
 		height:140vh;
@@ -340,10 +340,10 @@ a{
 		height:140vh;
 	}
 	#section5{
-		height:150vh;
+		height:140vh;
 	}
 	#section1{
-		height:135vh;
+		height:125vh;
 	}
 	#sec1-p{
 		font-size:30px;
