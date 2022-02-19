@@ -353,4 +353,7 @@ a{
 		visibility: hidden;
 		height: 0vh;
 	}
+	#section8{
+		height:190vh;
+	}
 }
