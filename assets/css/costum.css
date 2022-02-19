@@ -67,7 +67,7 @@
 	}
 
 	#section04{
-		height: 25vh;
+		height: 30vh;
 		position: relative;
 		width: 100%;
 		visibility: visible;
@@ -257,32 +257,6 @@ body {
 .fas.fa-arrow-circle-down{
 	color: #7DBBE9;
 
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 50px;
-  width: 50px;
-  outline: black;
-  background-size: 100%, 100%;
-  border-radius: 50%;
-  border: 1px solid black;
-  background-image: none;
-  display: hidden;
-  
-}
-
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 35px;
-  color: black;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 35px;
-  color: black;
 }
 
 html, body {
