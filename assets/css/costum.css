@@ -95,6 +95,7 @@
 	}
 	#footer-img{
 		padding:5vh;
+		width:40vw;
 
 	}
 	#cardtap{
@@ -181,6 +182,8 @@
 	#footer-img{
 		margin-left:-80px; 
 		padding-top: 5vh;
+		width:25vw;
+
 	}
 	#cardtap{
 		max-width:600px;
