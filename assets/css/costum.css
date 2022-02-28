@@ -1,7 +1,7 @@
 @media(max-width: 600px){
 	#col1{
 		order: 2;
-		height: 30vh;
+		height: 40vh;
 	}
 	#col2{
 		order: 1;
@@ -35,9 +35,6 @@
 		width: 100%;
 
 	}
-	#section1{
-		height:110vh;
-	}
 	#section2 .row{
 		margin-top: 30px;
 	}
@@ -46,12 +43,7 @@
 		margin-top: 0px;
 	}
 	
-	#header{
-		height: 150vh;
-
-	}
 	#section2{
-		height: 66vh;
 		width: 100%;
 	}
 	#section3{
@@ -62,36 +54,17 @@
 		visibility: hidden;
 	}
 
-	#section5{
-		height: 110vh;
-	}
-
 	#section04{
-		height: 30vh;
 		position: relative;
 		width: 100%;
 		visibility: visible;
 	}
 	#section03{
-		height:100vh;
 		visibility: visible;
 		background-color: #000;
-
 	}
-
-	#section6{
-		height: 120vh;
-	}
-
-	#section7{
-		height: 150vh;
-	}
-
 	#section2{
 		position: relative;
-	}
-	#footer{
-		height: 75vh;
 	}
 	#footer-img{
 		padding:5vh;
@@ -110,12 +83,6 @@
 	}
 	#phone4{
 		width:400px;
-	}
-	#silver{
-		top:13vh;
-	}
-	#section8{
-		height:150vh;
 	}
 	#section1{
 		padding-top:10vh;
@@ -138,36 +105,15 @@
 
 @media(min-width: 600px){
 
-	#section2{
-		height:60vh;
-	}
 	#section04, #section03{
 		visibility: hidden;
 		height: 0vh;
 	}
 	#section4{
-		height: 50vh;
 		visibility: visible;
 	}
 	#section3{
-		height:80vh;
 		visibility: visible;
-
-	}
-
-	#section5{
-		height: 100vh;
-	}
-
-	#section6{
-		height: 120vh;
-	}
-
-	#section7{
-		height: 100vh;
-	}
-	#section8{
-		height:90vh;
 	}
 	#footertxt{
 		padding-right: 25vh;
@@ -176,9 +122,6 @@
 	}
 	#col2{
 	 	padding-top:20vh;
-	}
-	#footer{
-		height: 65vh;
 	}
 	#footer-img{
 		margin-left:-80px; 
@@ -190,25 +133,15 @@
 	#cardtap{
 		max-width:600px;
 	}
-	#section1{
-		height:100vh;
-	}
 	#screens{
 		max-width: 600px;
 		width:600px;
 	}
 	#black{
-		width:80%;
-		
+		width:80%;	
 	}
 	#phone4{
 		width:550px;
-	}
-	#silver{
-		top:28vh;
-	}
-	#header{
-		height:115vh;
 	}
 	#sec1-p{
 		font-size:35px;
@@ -299,9 +232,6 @@ a{
 	#cardtap{
 		max-width:350px;
 	}
-	#header {
-		height: 165vh;
-	}
 	#screens{
 		max-width: 350px;
 	}
@@ -311,35 +241,14 @@ a{
 	#phone4{
 		width:350px;
 	}
-	#silver{
-		top:16vh;
-	}
-	#section3{
-		height:140vh;
-	}
-	#section6{
-		height:140vh;
-	}
-	#section5{
-		height:140vh;
-	}
-	#section1{
-		height:135vh;
-	}
 	#sec1-p{
 		font-size:30px;
 	}
 	#sec2-p{
 		font-size:17px;
 	}
-	#section2{
-		height:70vh;
-	}
 	#section4, #section3{
 		visibility: hidden;
 		height: 0vh;
-	}
-	#section8{
-		height:190vh;
 	}
 }
