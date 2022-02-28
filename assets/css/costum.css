@@ -91,7 +91,7 @@
 		font-size:6vw;
 	}
 	#sec2-p{
-		font-size:20px;
+		font-size:90%;
 	}
 	
 	#footertxt{
@@ -99,6 +99,9 @@
 	}
 	#sec5-row{
 		padding-top:5vh;
+	}
+	#header-p{
+		font-size: 17vw;
 	}
 
 }
@@ -146,7 +149,10 @@
 		font-size:4vw;
 	}
 	#sec2-p{
-		font-size:20px;
+		font-size:1.6vw;
+	}
+	#header-p{
+		font-size: 7vw;
 	}
 }
 
