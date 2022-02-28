@@ -205,7 +205,7 @@ html, body {
 	width:100%;
 }
 h2 {
-	font-size:5rem;
+	font-size:calc(3rem + 4vw);
 
 }
 p {
